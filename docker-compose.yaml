@@ -17,7 +17,7 @@ services:
       - backend
     image: nilsherzig/llocalsearch-frontend:latest
     ports:
-      - '13000:4173'
+      - '3000:4173'
     networks:
       - llm_network
 
